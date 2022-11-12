@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="css/styles.css"/>
+	<title>Vicious Cycles</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.typekit.net/krm8lhh.css">
+  <link rel="stylesheet" href="https://use.typekit.net/krm8lhh.css">
+  <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header="header">
+		<!-- LOGO -->
+		<a href="home.html"><img class="logo" src="images/vicious-cycles-logo.png" alt="Vicious Cycles Logo"></a>
+		<!-- NAVIGATION MENU -->
+        <nav class="nav" id="webnav">
+				<ul class="nav-links">
+				<!-- NAVIGATION MENUS -->
+				<div class="menu">
+					<li><a href="home.html">Home</a></li>
+					<li><a href="bicycles.html">Bicycles</a></li>
+					<li><a href="accessories.html">Accessories</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="about.html">About</a></li>
+				</div>
+				</ul>
+        </nav>
+    </header>
+	<main id="page-container">
+		<!-- services Splash -->
+			<section id="vc-shop">
+				<img src="images/shop.jpg" alt="Vicious Cycles Store Interior" class="vc-store">
+				<br><br>
+				<p>We cannot exist without you and because of that we strive to prioritize your happiness and safety.</p>
+				<p>From getting you on your first bicycle to your monthly or annual maintenance, Vicious Cycles is proud to serve you.</p> 
+					<p>Our mechanics and sales staff are here to help you.</p>
+					<hr>
+				<h2>Service Menu</h2>
+				<hr>
+				<div id="shop-articles">
+					<article class="service-repair">
+						<h3>Repair</h3>
+						<br>
+						<ul>
+							<li>Suspension Repair</li>
+							<li>Brake Service and Repair</li>
+							<li>Pedal Replacement and Repair</li>
+							<li>Chain Repair</li>
+						</ul>
+					</article>
+					<article class="service-build">
+						<h3>Custom Bike Creation</h3>
+						<br>
+						<ul>
+							<li>Custom Wheel Building</li>
+							<li>Custom Bike Building</li>
+							<li>Bicycle Assembly</li>
+						</ul>
+					</article>
+					<article class="tune-up">
+						<h3>Bicycle Tune-up</h3>
+						<ul>
+							<li><span style="font-weight: bold;">Basic:</span> Checking general assembly, along with brake and gear adjustment.</li>
+							<li><span style="font-weight: bold;">Advanced:</span> Basic Tune-up and a full bicycle detail.</li>
+							<li><span style="font-weight: bold;">E-Bike:</span> Advanced Tune-up and maintenance of specific E-Bike systems.</li>
+						</ul>
+					</article>
+				</div>
+			</section>
+			<br>
+			<h2 class="schedule-headline">Schedule an appointment today!</h2>
+			<br>
+			<!--Services Forms-->
+			<section id="schedule">
+				<br>
+				<form class="name"><p><span style="font-weight: bold;">Name:</span></p><br>
+					<label for="fname">First name:</label><br>
+  					<input type="text" id="fname" name="fname"><br>
+  					<label for="lname">Last name:</label><br>
+ 					<input type="text" id="lname" name="lname"><br>
+				</form>
+					<form class="name2">
+						<p><span style="font-weight: bold;">Contact Information:</span></p><br>
+					<label for="email">Email:</label><br>
+ 					<input type="text" id="email" name="email"><br>
+					<label for="phone">Phone:</label><br>
+ 					<input type="text" id="phone" name="phone">
+					</form>
+				<hr>
+				<form class="social">
+					<p><span style="font-weight: bold;">How did you hear about us?</span></p>
+					<input type="radio" id="social" name="fav_language" value="Social Media">
+					<label for="social">Social Media</label><br>
+					<input type="radio" id="store" name="fav_language" value="Store Front">
+					<label for="store">Store Front</label><br>
+					<input type="radio" id="referral" name="fav_language" value="Referral">
+					<label for="referral">Referral</label>
+				</form>
+				<hr>
+				<form class="service">
+					<p><span style="font-weight: bold;">Which service are you requesting?</span></p>
+					<input type="checkbox" id="repair" name="repair" value="Repair">
+					<label for="vehicle1">Bicycle Repair</label><br>
+					<input type="checkbox" id="build" name="build" value="Custom Build">
+					<label for="vehicle2">Custom Build</label><br>
+					<input type="checkbox" id="tune-up" name="tune-up" value="Tune-up">
+					<label for="tune-up">Tune-up</label>
+				  </form>
+				  <br><br>
+				  <form class="contact-method">
+					<label for="contact-method"><p><span style="font-weight: bold;">How would you like for us to return your inquiry?</span></p></label>
+						<select name="contact-method">
+							<option value="0"></option>
+  							<option value="1">Email</option>
+ 							 <option value="2">Phone</option>
+ 							 <option value="3">Text</option>
+						</select>
+				</form>
+				<br>
+				<form class="requests">
+					<label for="requests"><span style="font-weight: bold;">Do you have any special requests or comments?</span></label>
+						<textarea id="requests" name="requests" rows="5" cols="33">
+						</textarea>
+				</form>
+				<button class="submit-button"><a href="#" alt="submit-button">Submit</a></button>
+			</section>
+			<button class="return-button"><a href="home.html" alt="return to home button">Return to Home</a></button>
+    </main>
+	<footer class="footer">
+		<div class="center-footer-text">
+			<h6>&#169; Vicious Cycles 2022</h6>
+			<hr>
+			<p>1315 Fairview Rd Raleigh, NC 27608</p>
+			<p>Follow us on Social Media</p>
+			<p><a href="tel:919-552-5554">Phone: 919-552-5554</a></p>
+		</div>
+		<div class="footer-social">
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+		</div>
+</footer>
+</body>
+</html>

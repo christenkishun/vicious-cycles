@@ -1,49 +1,70 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/styles.css">
 	<title>Vicious Cycles</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://use.typekit.net/krm8lhh.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
   <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header="header">
+    <header>
 		<!-- LOGO -->
-		<a href="home.html"><img class="logo" src="images/vicious-cycles-logo.png" alt="Vicious Cycles Logo"></a>
+		<a href="../index.html"><img class="logo" src="images/vicious-cycles-logo.png" alt="Vicious Cycles Logo"></a>
 		<!-- NAVIGATION MENU -->
         <nav class="nav" id="webnav">
-				<ul class="nav-links">
+				<!-- <ul class="nav-links"> -->
 				<!-- NAVIGATION MENUS -->
 				<div class="menu">
-					<li><a href="home.html">Home</a></li>
-					<li><a href="bicycles.html">Bicycles</a></li>
-					<li><a href="accessories.html">Accessories</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="about.html">About</a></li>
-				</div>
+					<ul class="nav-links">
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="bicycles.html">Bicycles</a></li>
+						<li><a href="accessories.html">Accessories</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="about.html">About</a></li>
 				</ul>
+				</div>
+			<!-- </ul> -->
         </nav>
     </header>
-	<main id="page-container">
-			<section>
-				<h1>Vicious Cycles</h1>
-			</section>
+    <main id="page-container">
+		<section id="accessories-page">
+			<img src="images/accessories-splash.jpg" alt="Vicious Cycles Bicycle Splash Image" class="vc-store">
+			<h1>Accessories</h1>
+			<p>Browse through our selection of Wheels/Tires, Car Racks, and Customization items. </p>
+			<P>If you see something that you like, please come in and view it in person.</P>
+			<!--Accessories Sections-->
+			<div class="accessories-container">
+				<a href="wheels.html" class="wheels-tires">
+					<img src="images/wheels/wheel2.jpg" alt="Close Up of a Bicycle Wheel">
+					<p class="collection-title"><span>Wheels/Tires</span></p>
+				</a>
+				<a href="car-racks.html" class="car-racks">
+					<img src="images/car-racks/carrack1.jpg" alt="Car Rack Image">
+					<p class="collection-title"><span>Car Racks</span></p>
+				</a>
+				<a href="customize.html" class="customize">
+					<img src="images/customization/chain.jpg" alt="Electric Bicycle Image">
+					<p class="collection-title"><span>Customization</span></p>
+				</a>
+			</div>
+		</section>
     </main>
-<footer class="footer">
 	<footer class="footer">
 		<div class="center-footer-text">
-			<h6>&#169; Vicious Cycles 2022</h6>
-			<hr>
+			<h3>&#169; Vicious Cycles 2022</h3>
 			<p>1315 Fairview Rd Raleigh, NC 27608</p>
+			<p><a href="tel:919-552-5554">Phone: 919-552-5554</a> <a href="mailto:viciouscycles@gmail.com" class="email">Email: viciouscycles@gmail.com</a></p>
 			<p>Follow us on Social Media</p>
-			<p><a href="tel:919-552-5554">Phone: 919-552-5554</a></p>
 		</div>
 		<div class="footer-social">
-			<a href="#" class="fa fa-facebook"></a>
-			<a href="#" class="fa fa-twitter"></a>
+			<a href="https://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+			<a href="https://twitter.com/i/flow/login" target="_blank" class="fa fa-twitter"></a>
 		</div>
 </footer>
 </body>
